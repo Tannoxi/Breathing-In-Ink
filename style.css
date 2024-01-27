@@ -114,7 +114,33 @@ p{
 .main-container {
     margin: 50px;
 }
-
+/* -------------------Workflow----------------------- */
+.main-AB-container-1 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1fr;
+    position: relative;
+}
+.main-AB-container-1 .photo-intro img{
+    width: 100%;
+}
+.main-AB-container-1 .relate-intro {
+    position: absolute;
+    top: 80%;
+    margin: 0 60%;
+}
+/* -------------------Gallery----------------------- */
+.prompt-gallery .prompt{
+    padding: 15px 20px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+.prompt-gallery img{
+    width: 400px;
+    padding: 10px 25px;
+}
 
 /* -------------------Footer--------------------  */
 .footer{

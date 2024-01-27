@@ -13,9 +13,6 @@ function createAuto() {
 
 let autoTimer = createAuto()
 
-
-
-
 function refresh(){
 
     if (index < 0){
