@@ -16,9 +16,9 @@ let autoTimer = createAuto()
 function refresh(){
 
     if (index < 0){
-        index = 5 ;
+        index = 8 ;
 
-    }else if (index === 5){
+    }else if (index === 8){
         setTimeout(() => {
             index = 0;
             oImgList.style.left = 0;
