@@ -1,10 +1,16 @@
+@font-face {
+    font-family: 'Ashfina';
+    src: url("./font/Ashfiana\ Regular.otf");
+}
+
+
 body{
     background-color: black;
     margin: 0px;
 }
 p{
-    color: white
-    ;
+    color: white;
+    font-family: Ashfina ;
 }
 /* -------------------Header----------------------- */
 .header{
@@ -12,14 +18,16 @@ p{
 }
 .header h1{
     color: white;
-    font-size: 50px;
-    margin: 20px 0;
+    font-size: 3.5em;
+    margin: 50px 0;
+    font-family: Ashfina ;
+    font-weight: 800;
 }
 .header ul{
     list-style: none;
-    padding: 0px;
-    margin: 20px 200px;
-    background-color: gray;
+    padding: 0px 10px;
+    margin: 10px 200px;
+    background-color: #403E4A;
 }
 .header ul li{
     display: inline-block;
@@ -28,6 +36,8 @@ p{
 .header ul li a{
     color: white;
     text-decoration: none;
+    font-family: Ashfina ;
+    font-size: 0.7em;
 }
 /* -------------------Carousel----------------------- */
 .carousel{
@@ -35,6 +45,7 @@ p{
     height: 600px;
     position: relative;
     overflow: hidden;
+    margin: 20px 0;
 }
 .carousel .img-container{
     
@@ -140,11 +151,12 @@ p{
 .prompt-gallery img{
     width: 400px;
     padding: 10px 25px;
+    object-fit: cover;
 }
 
 /* -------------------Footer--------------------  */
 .footer{
-    background-color: gray;
+    background-color: #191919;
 }
 .footer p{
     color: white;
