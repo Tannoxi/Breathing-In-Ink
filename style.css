@@ -129,6 +129,14 @@ p{
 .main-container {
     margin: 50px;
 }
+.main-container .text-content {
+    margin: 0 10%;
+}
+.main-container .text-content h2{
+    color: white;
+    font-family: Ashfina ;
+    font-size: 2em;
+}
 /* -------------------Workflow----------------------- */
 .main-AB-container-1 {
     display: grid;
