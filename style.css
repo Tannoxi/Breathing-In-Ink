@@ -159,7 +159,7 @@ p{
 .prompt-gallery .prompt{
     margin: 0 25px;
     padding: 15px 20px;
-    width: 120px;
+    width: 160px;
     border: 1px solid white;
     border-radius: 5px;
     text-align: center;
@@ -184,7 +184,7 @@ p{
 }
 .dataset-container .prompt{
     padding: 15px 20px;
-    width: 120px;
+    width: 160px;
     border: 1px solid white;
     border-radius: 5px;
     text-align: center;
