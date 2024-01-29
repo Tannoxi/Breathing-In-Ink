@@ -162,7 +162,18 @@ p{
     padding: 10px 25px;
     object-fit: cover;
 }
-
+/* -------------------Dataset--------------------  */
+.dataset-container img{
+    width: 100%;
+    height: auto;
+}
+.dataset-container .prompt{
+    padding: 15px 20px;
+    width: 120px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
 /* -------------------Footer--------------------  */
 .footer{
     background-color: #191919;
