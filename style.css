@@ -12,6 +12,16 @@ p{
     color: white;
     font-family: Ashfina ;
 }
+h2{
+    color: white;
+    font-family: Ashfina ;
+    font-size: 2.5em;
+}
+h3{
+    color: white;
+    font-family: Ashfina ;
+    font-size: 1.5em;
+}
 /* -------------------Header----------------------- */
 .header{
     text-align: center;
@@ -132,10 +142,12 @@ p{
 .main-container .text-content {
     margin: 0 10%;
 }
-.main-container .text-content h2{
-    color: white;
-    font-family: Ashfina ;
-    font-size: 2.5em;
+.main-container .video-content {
+    width: 100%;
+    height: 100%;
+}
+.main-container .video-content .videoElement{
+    object-fit: fill;
 }
 /* -------------------Workflow----------------------- */
 .main-AB-container-1 {
